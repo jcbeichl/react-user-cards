@@ -1,0 +1,103 @@
+body {
+  background-color: #fffefeb6;
+  padding: 0 1rem;
+}
+
+.usercard-json {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+
+  & .card {
+    background: white;
+    border: 1px solid #777777;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px 0 rgba($color: #000000, $alpha: 0.15);
+    min-width: 300px;
+    padding: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 1rem;
+
+    & .name {
+      margin: 0 0 2rem;
+    }
+
+    & .body {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1rem 0.5rem;
+      padding: 0 1rem;
+    }
+
+    & .label {
+      font-weight: 700;
+    }
+  }
+}
+
+.usercard-jsx {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+
+  & .card-wrap {
+    background: white;
+    border: 1px solid pink;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px 0 rgba($color: pink, $alpha: 0.5);
+    min-width: 300px;
+    padding: 1.5rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 0 0 1rem;
+
+    & .card-name {
+      margin: 0 0 2rem;
+    }
+
+    & .card-body-wrap {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1rem 0.5rem;
+      padding: 0 1rem;
+
+      & .card-body-label {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.animalcard-json {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+
+  & .animal-card-wrap {
+    background: white;
+    border: 1px solid green;
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px 0 rgba($color: green, $alpha: 0.5);
+    min-width: 300px;
+    padding: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1rem;
+
+    & .animal-card-img {
+      align-self: center;
+      padding: 1rem;
+      & img {
+        width: 100%;
+      }
+    }
+
+    & .animal-card-label {
+      font-size: 1.05rem;
+      align-self: center;
+      font-weight: 700;
+    }
+  }
+}

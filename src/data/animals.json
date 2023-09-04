@@ -1,0 +1,28 @@
+{
+  "animals":[
+    {
+      "type": "Unicorn",
+      "image": "unicorn.png"
+    },
+    {
+      "type": "Ladybug",
+      "image": "ladybug.png"
+    },
+    {
+      "type": "Parrot",
+      "image": "parrot.png"
+    },
+    {
+      "type": "Whale",
+      "image": "whale.png"
+    },
+    {
+      "type": "Dinosaur",
+      "image": "dinosaur.png"
+    },
+    {
+      "type": "Gorilla",
+      "image": "gorilla.png"
+    }
+  ]
+}

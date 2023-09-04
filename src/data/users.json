@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Jesse James",
+      "age": 65,
+      "phoneNumber": "123-456-7890",
+      "address": "12345 Elm Street"
+    },
+    {
+      "name": "Wyatt Earp",
+      "age": 73,
+      "phoneNumber": "123-456-7890",
+      "address": "12345 Elm Street"
+    },
+    {
+      "name": "Brock Lesner",
+      "age": 54,
+      "phoneNumber": "123-456-7890",
+      "address": "12345 Elm Street"
+    }
+  ]
+}
